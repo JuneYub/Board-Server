@@ -8,7 +8,7 @@ public interface UserService {
 
     UserDTO login(String id, String password);
 
-    boolean isDuplicateId(String id);
+    boolean isDuplicatedId(String id);
 
     UserDTO getUserInfo(String userId);
 
