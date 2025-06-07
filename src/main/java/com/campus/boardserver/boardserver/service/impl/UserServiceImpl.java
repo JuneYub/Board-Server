@@ -1,11 +1,10 @@
-package com.campus.boardserver.boardserver.service;
+package com.campus.boardserver.boardserver.service.impl;
 
 import com.campus.boardserver.boardserver.dto.UserDTO;
 import com.campus.boardserver.boardserver.exception.DuplicateIdException;
 import com.campus.boardserver.boardserver.mapper.UserProfileMapper;
-import com.campus.boardserver.boardserver.util.SHA256Util;
+import com.campus.boardserver.boardserver.service.UserService;
 import lombok.extern.log4j.Log4j2;
-import org.apache.catalina.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
