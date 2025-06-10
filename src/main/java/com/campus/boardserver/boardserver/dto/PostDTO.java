@@ -3,6 +3,7 @@ package com.campus.boardserver.boardserver.dto;
 import lombok.*;
 
 import java.util.Date;
+import java.util.List;
 
 @Builder
 @Data
@@ -20,5 +21,5 @@ public class PostDTO {
     private int userId;
     private int fileId;
     private Date updateTime;
-
+    private List<TagDTO> tagDTOList;
 }
